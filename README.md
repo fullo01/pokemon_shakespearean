@@ -24,7 +24,7 @@ $ npm install
 $ node index.js
 ```
 
-4. Visit http://localhost:3000/pokemon/:pokemonName
+4. Visit http://localhost:3000/pokemon/POKEMON_NAME_HERE
 
 ## Via Docker
 
