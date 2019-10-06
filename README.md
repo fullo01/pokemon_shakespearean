@@ -12,7 +12,7 @@ Note: Due to external API restrictions, only 5 requests per hour can be made.
 
 1. Clone repo
 
-2. Install dependencies:
+2. Install dependencies (from within cloned folder):
 
 ```console
 $ npm install
@@ -30,7 +30,7 @@ $ node index.js
 
 1. Clone repo
 
-2. Build docker image:
+2. Build docker image (from within cloned folder):
 
 ```console
 $ docker build -t your_dockerhub_username/pokemon_shakespearean .
