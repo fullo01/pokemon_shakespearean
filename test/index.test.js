@@ -23,8 +23,7 @@ describe("app", () => {
       chai.request(app)
         .get(`/pokemon/${pokemonName}`)
         .end(function(err, res){
-          chai.expect(err.response.status).to.equal(404);
-          chai.expect(err.response.statusText).to.equal('Not Found')
+          chai.expect(res.statusCode).to.equal(404);
           if (err) throw err;
           done();
         });

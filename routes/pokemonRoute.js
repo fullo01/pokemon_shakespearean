@@ -1,4 +1,3 @@
-// file: user-route.js
 const TranslatorService = require('../services/translatorService');
 const PokemonService = require('../services/pokemonService');
 
