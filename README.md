@@ -42,4 +42,4 @@ $ docker build -t your_dockerhub_username/pokemon_shakespearean .
 $ docker run --name pokemon_shakespearean -p 3000:3000 -d your_dockerhub_username/pokemon_shakespearean
 ```
 
-4. Visit http://localhost:3000/pokemon/:pokemonName
+4. Visit http://localhost:3000/pokemon/POKEMON_NAME_HERE
