@@ -26,7 +26,7 @@ $ node index.js
 
 4. Visit http://localhost:3000/pokemon/:pokemonName
 
-## Via Docker container
+## Via Docker
 
 1. Clone repo
 
