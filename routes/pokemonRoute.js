@@ -3,7 +3,7 @@ const PokemonService = require('../services/pokemonService');
 
 module.exports = async function (req, res) {
   try {
-    const requestedPokemon = req.params.pokemonName;
+    const requestedPokemon = req.params.pokemonName.toLowerCase();
     const pokemonDetails = await PokemonService.getDetails(requestedPokemon);
   
     const pokemonDescriptionsEnglish = PokemonService.filterEnglishDescriptions(pokemonDetails);
