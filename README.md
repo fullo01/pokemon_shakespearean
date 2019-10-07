@@ -2,7 +2,7 @@
 
 This is an API that returns the description of a Pokemon in Shakespearean english. 
 
-Simply pass the Pokemon's name as a param in http://localhost:3000/pokemon/POKEMON_NAME_HERE and a JSON object will be returned.
+When running locally, simply pass the Pokemon's name as a param in http://localhost:3000/pokemon/POKEMON_NAME_HERE and a JSON object will be returned.
 
 Note: Due to external API restrictions, only 5 requests per hour can be made.
 
