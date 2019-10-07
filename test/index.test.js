@@ -1,9 +1,9 @@
 // const request = require('supertest');
 var chai = require('chai');
 chai.use(require('chai-http'));
-var app = require('../index');
+const app = require('../index');
 
-describe("app", () => {
+describe("GET /pokemon/:pokemonName", () => {
 
     it("should get a pokemon when requested", (done) => {
       const pokemonName = 'pikachu';
