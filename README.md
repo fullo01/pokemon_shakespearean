@@ -2,7 +2,15 @@
 
 This is an API that returns the description of a Pokemon in Shakespearean english. 
 
-When running locally, simply pass the Pokemon's name as a param in http://localhost:3000/pokemon/POKEMON_NAME_HERE and a JSON object will be returned.
+```
+GET endpoint: /pokemon/<pokemon name>
+```
+
+A JSON object will be returned, as per below.
+
+```
+{ name: "", description: "" }
+```
 
 Note: Due to external API restrictions, only 5 requests per hour can be made.
 
@@ -24,7 +32,7 @@ $ npm install
 $ node index.js
 ```
 
-4. Visit http://localhost:3000/pokemon/POKEMON_NAME_HERE
+4. Visit http://localhost:3000/pokemon/<pokemon name>
 
 ## Via Docker
 
@@ -42,4 +50,4 @@ $ docker build -t your_dockerhub_username/pokemon_shakespearean .
 $ docker run --name pokemon_shakespearean -p 3000:3000 -d your_dockerhub_username/pokemon_shakespearean
 ```
 
-4. Visit http://localhost:3000/pokemon/POKEMON_NAME_HERE
+4. Visit http://localhost:3000/pokemon/<pokemon name>
